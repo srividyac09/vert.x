@@ -3,4 +3,4 @@ arch:
   - ppc64le
 language: java
 script:
-  - mvn package -DskipTests
+  - mvn install
