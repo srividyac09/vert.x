@@ -2,5 +2,7 @@ dist: bionic
 arch:
   - ppc64le
 language: java
+before_install:
+  - openssl
 script:
   - mvn clean package
