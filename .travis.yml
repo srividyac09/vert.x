@@ -1,4 +1,4 @@
-dist: focal
+dist: groovy
 arch:
   - ppc64le
 language: java
