@@ -1,4 +1,4 @@
-dist: bionic
+dist: focal
 arch:
   - ppc64le
 language: java
