@@ -1,6 +1,6 @@
-dist: groovy
+dist: bionic
 arch:
   - ppc64le
 language: java
 script:
-  - mvn clean package
+  - mvn clean install
