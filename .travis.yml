@@ -2,5 +2,8 @@ dist: focal
 arch:
   - ppc64le
 language: java
+before_install:
+  - sudo apt openssl
+  - sudo apt install build-essential
 script:
   - mvn clean install
